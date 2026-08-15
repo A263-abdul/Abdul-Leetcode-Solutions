@@ -10,9 +10,9 @@
 
 <br/>
 
-[![Problems Solved](https://img.shields.io/badge/Total%20Solved-13-brightgreen?style=for-the-badge&logo=checkmarx)](.)
+[![Problems Solved](https://img.shields.io/badge/Total%20Solved-14-brightgreen?style=for-the-badge&logo=checkmarx)](.)
 [![Easy](https://img.shields.io/badge/Easy-7-00b8a3?style=for-the-badge)](./Easy)
-[![Medium](https://img.shields.io/badge/Medium-4-ffc01e?style=for-the-badge)](./Medium)
+[![Medium](https://img.shields.io/badge/Medium-5-ffc01e?style=for-the-badge)](./Medium)
 [![Hard](https://img.shields.io/badge/Hard-2-ef4743?style=for-the-badge)](./Hard)
 [![Streak](https://img.shields.io/badge/Streak-5%20days%20🔥-orange?style=for-the-badge)](.)
 
@@ -39,13 +39,13 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🏆 Total Solved: 13 / 4019                             │
+│  🏆 Total Solved: 14 / 4019                             │
 │                                                         │
 │  🟢 Easy    ██████░░░░░░░░  7 / 958    (0.7%)          │
-│  🟡 Medium  ████░░░░░░░░░░  4 / 2099   (0.2%)          │
+│  🟡 Medium  █████░░░░░░░░░  5 / 2099   (0.2%)          │
 │  🔴 Hard    ██░░░░░░░░░░░░  2 / 962    (0.2%)          │
 │                                                         │
-│  🔥 Current Streak : 5 days                            │
+│  🔥 Current Streak : 6 days                            │
 │  🎯 Rank           : ~5,000,000                        │
 │  📅 Last Solved    : Aug 15, 2026                      │
 └─────────────────────────────────────────────────────────┘
@@ -69,6 +69,7 @@
 |---|---------|-----------|-----------|-----------------|------|
 | 39 | [Combination Sum](./Medium/39-Combination-Sum/) | Backtrack (Dupes) | Backtrack + Index | **Backtrack + Pruning** | Aug 15 |
 | 198 | [House Robber](./Medium/198-House-Robber/) | Recursion O(2^n) | DP Memoization | **Space-Opt DP O(1)** | Aug 15 |
+| 264 | [Ugly Number II](./Medium/264-Ugly-Number-II/) | Brute Force O(n×log k) | — | **DP + 3 Pointers O(n)** | Aug 15 |
 | 322 | [Coin Change](./Medium/322-Coin-Change/) | Recursion (TLE) | DP Memoization | **DP Tabulation O(Sn)** | Aug 15 |
 | 509 | [Fibonacci Number](./Medium/509-Fibonacci-Number/) | Recursion O(2^n) | DP Memoization | **Iterative O(1) Space** | Aug 15 |
 
@@ -116,6 +117,7 @@
 ## 📅 Recent Activity
 
 ```
+Aug 15, 2026  ─  Ugly Number II (Medium)  → DP + 3 Pointers  ✅  ← NEW
 Aug 15, 2026  ─  Two Sum (Easy)           → One-Pass HashMap  ✅
 Aug 15, 2026  ─  Coin Change (Medium)     → DP Tabulation     ✅
 Aug 15, 2026  ─  House Robber (Medium)    → Space-Opt DP      ✅
@@ -172,8 +174,9 @@ Abdul-Leetcode-Solutions/
 │       └── README.md
 │
 ├── 🟡 Medium/
-│   ├── 322-Coin-Change/
 │   ├── 198-House-Robber/
+│   ├── 264-Ugly-Number-II/     ← NEW
+│   ├── 322-Coin-Change/
 │   ├── 39-Combination-Sum/
 │   └── 509-Fibonacci-Number/
 │
@@ -195,6 +198,6 @@ Abdul-Leetcode-Solutions/
 
 **⭐ Star this repo if it helps you! | Made with ❤️ by [Abdul Siddiqi](https://github.com/A263-abdul)**
 
-*Last Updated: Aug 15, 2026 · Maintained daily*
+*Last Updated: Aug 15, 2026 · 14 problems solved · Maintained daily*
 
 </div>
