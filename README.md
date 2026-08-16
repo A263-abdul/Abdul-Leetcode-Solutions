@@ -10,11 +10,11 @@
 
 <br/>
 
-[![Problems Solved](https://img.shields.io/badge/Total%20Solved-15-brightgreen?style=for-the-badge&logo=checkmarx)](.)
+[![Problems Solved](https://img.shields.io/badge/Total%20Solved-16-brightgreen?style=for-the-badge&logo=checkmarx)](.)
 [![Easy](https://img.shields.io/badge/Easy-7-00b8a3?style=for-the-badge)](./Easy)
-[![Medium](https://img.shields.io/badge/Medium-6-ffc01e?style=for-the-badge)](./Medium)
+[![Medium](https://img.shields.io/badge/Medium-7-ffc01e?style=for-the-badge)](./Medium)
 [![Hard](https://img.shields.io/badge/Hard-2-ef4743?style=for-the-badge)](./Hard)
-[![Streak](https://img.shields.io/badge/Streak-5%20days%20🔥-orange?style=for-the-badge)](.)
+[![Streak](https://img.shields.io/badge/Streak-7%20days%20🔥-orange?style=for-the-badge)](.)
 
 </div>
 
@@ -39,15 +39,15 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🏆 Total Solved: 15 / 4019                             │
+│  🏆 Total Solved: 16 / 4019                             │
 │                                                         │
 │  🟢 Easy    ██████░░░░░░░░  7 / 958    (0.7%)          │
-│  🟡 Medium  ██████░░░░░░░░  6 / 2099   (0.3%)          │
+│  🟡 Medium  ███████░░░░░░░  7 / 2099   (0.3%)          │
 │  🔴 Hard    ██░░░░░░░░░░░░  2 / 962    (0.2%)          │
 │                                                         │
-│  🔥 Current Streak : 6 days                            │
+│  🔥 Current Streak : 7 days                            │
 │  🎯 Rank           : ~5,000,000                        │
-│  📅 Last Solved    : Aug 15, 2026                      │
+│  📅 Last Solved    : Aug 16, 2026                      │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -68,6 +68,7 @@
 | # | Problem | Approach 1 | Approach 2 | Best Approach ⭐ | Date |
 |---|---------|-----------|-----------|-----------------|------|
 | 39 | [Combination Sum](./Medium/39-Combination-Sum/) | Backtrack (Dupes) | Backtrack + Index | **Backtrack + Pruning** | Aug 15 |
+| 62 | [Unique Paths](./Medium/62-Unique-Paths/) | Recursion O(2^(m+n)) | DP Memoization | **Tabulation / Math O(mn)** | Aug 16 |
 | 198 | [House Robber](./Medium/198-House-Robber/) | Recursion O(2^n) | DP Memoization | **Space-Opt DP O(1)** | Aug 15 |
 | 264 | [Ugly Number II](./Medium/264-Ugly-Number-II/) | Brute Force O(n×log k) | — | **DP + 3 Pointers O(n)** | Aug 15 |
 | 279 | [Perfect Squares](./Medium/279-Perfect-Squares/) | Greedy ❌ Wrong | DP Memoization | **DP Tabulation O(n√n)** | Aug 15 |
@@ -118,14 +119,15 @@
 ## 📅 Recent Activity
 
 ```
-Aug 15, 2026  ─  Perfect Squares (Medium) → DP Tabulation     ✅  ← NEW
+Aug 16, 2026  ─  Unique Paths (Medium)    → DP Tabulation     ✅  ← NEW
+Aug 15, 2026  ─  Perfect Squares (Medium) → DP Tabulation     ✅
 Aug 15, 2026  ─  Ugly Number II (Medium)  → DP + 3 Pointers  ✅
 Aug 15, 2026  ─  Two Sum (Easy)           → One-Pass HashMap  ✅
 Aug 15, 2026  ─  Coin Change (Medium)     → DP Tabulation     ✅
 Aug 15, 2026  ─  House Robber (Medium)    → Space-Opt DP      ✅
 Aug 15, 2026  ─  Fibonacci Number (Easy)  → Iterative O(1)    ✅
 Aug 15, 2026  ─  Combination Sum (Medium) → Backtrack+Prune   ✅
-Aug 15, 2026  ─  Convert Time (Easy)      → Greedy Inline     ✅
+Aug 16, 2026  ─  Convert Time (Easy)      → Greedy Inline     ✅
 ```
 
 ---
@@ -178,7 +180,8 @@ Abdul-Leetcode-Solutions/
 ├── 🟡 Medium/
 │   ├── 198-House-Robber/
 │   ├── 264-Ugly-Number-II/
-│   ├── 279-Perfect-Squares/    ← NEW
+│   ├── 279-Perfect-Squares/
+│   ├── 62-Unique-Paths/        ← NEW
 │   ├── 322-Coin-Change/
 │   ├── 39-Combination-Sum/
 │   └── 509-Fibonacci-Number/
@@ -201,6 +204,6 @@ Abdul-Leetcode-Solutions/
 
 **⭐ Star this repo if it helps you! | Made with ❤️ by [Abdul Siddiqi](https://github.com/A263-abdul)**
 
-*Last Updated: Aug 15, 2026 · 15 problems solved · Maintained daily*
+*Last Updated: Aug 16, 2026 · 16 problems solved · Maintained daily*
 
 </div>
