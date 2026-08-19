@@ -10,11 +10,11 @@
 
 <br/>
 
-[![Problems Solved](https://img.shields.io/badge/Total%20Solved-20-brightgreen?style=for-the-badge&logo=checkmarx)](.)
-[![Easy](https://img.shields.io/badge/Easy-7-00b8a3?style=for-the-badge)](./Easy)
+[![Problems Solved](https://img.shields.io/badge/Total%20Solved-22-brightgreen?style=for-the-badge&logo=checkmarx)](.)
+[![Easy](https://img.shields.io/badge/Easy-9-00b8a3?style=for-the-badge)](./Easy)
 [![Medium](https://img.shields.io/badge/Medium-10-ffc01e?style=for-the-badge)](./Medium)
 [![Hard](https://img.shields.io/badge/Hard-3-ef4743?style=for-the-badge)](./Hard)
-[![Streak](https://img.shields.io/badge/Streak-9%20days%20🔥-orange?style=for-the-badge)](.)
+[![Streak](https://img.shields.io/badge/Streak-10%20days%20🔥-orange?style=for-the-badge)](.)
 
 </div>
 
@@ -26,8 +26,8 @@
 
 | 📂 Category | 🔗 Link | 📊 Progress |
 |:-----------:|:-------:|:-----------:|
-| 🟢 Easy | [Browse Easy](./Easy) | 7 solved |
-| 🟡 Medium | [Browse Medium](./Medium) | 7 solved |
+| 🟢 Easy | [Browse Easy](./Easy) | 9 solved |
+| 🟡 Medium | [Browse Medium](./Medium) | 10 solved |
 | 🔴 Hard | [Browse Hard](./Hard) | 3 solved |
 | 📝 Notes | [Study Notes](./Notes) | 3 guides |
 
@@ -39,15 +39,15 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🏆 Total Solved: 20 / 4019                             │
+│  🏆 Total Solved: 22 / 4019                             │
 │                                                         │
-│  🟢 Easy    ██████░░░░░░░░  7 / 958    (0.7%)          │
+│  🟢 Easy    █████████░░░░░  9 / 958    (0.9%)          │
 │  🟡 Medium  ██████████░░░░  10 / 2099  (0.4%)          │
 │  🔴 Hard    ███░░░░░░░░░░░  3 / 962    (0.3%)          │
 │                                                         │
-│  🔥 Current Streak : 9 days                            │
+│  🔥 Current Streak : 10 days                           │
 │  🎯 Rank           : ~5,000,000                        │
-│  📅 Last Solved    : Aug 18, 2026                      │
+│  📅 Last Solved    : Aug 19, 2026                      │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -59,6 +59,8 @@
 |---|---------|-----------|-----------|-----------------|------|
 | 1 | [Two Sum](./Easy/1-Two-Sum/) | Brute Force O(n²) | Two-Pass HashMap | **One-Pass HashMap O(n)** | Aug 15 |
 | 9 | [Palindrome Number](./Easy/9-Palindrome-Number/) | String Conversion | — | **Math Reverse O(log n)** | — |
+| 58 | [Length of Last Word](./Easy/58-Length-of-Last-Word/) | Split+Trim | Two Pointers | **Reverse Iteration O(1)** | Aug 19 |
+| 217 | [Contains Duplicate](./Easy/217-Contains-Duplicate/) | Brute Force O(n²) | Sort O(n log n) | **HashSet One-Pass O(n)** | Aug 19 |
 | 2224 | [Convert Time](./Easy/2224-Convert-Time/) | Simulation | Greedy Array | **Greedy Inline O(1)** | Aug 15 |
 
 ---
@@ -123,19 +125,18 @@
 ## 📅 Recent Activity
 
 ```
-Aug 18, 2026  ─  Merge k Sorted Lists (Hard) → Min-Heap         ✅  ← NEW
-Aug 18, 2026  ─  Count Majority (Medium)    → Fenwick Tree      ✅  
-Aug 17, 2026  ─  Sort an Array (Medium)    → Merge Sort        ✅
-Aug 17, 2026  ─  Word Break (Medium)       → DP Tabulation     ✅
-Aug 16, 2026  ─  Unique Paths (Medium)    → DP Tabulation     ✅
-Aug 15, 2026  ─  Perfect Squares (Medium) → DP Tabulation     ✅
-Aug 15, 2026  ─  Ugly Number II (Medium)  → DP + 3 Pointers  ✅
-Aug 15, 2026  ─  Two Sum (Easy)           → One-Pass HashMap  ✅
-Aug 15, 2026  ─  Coin Change (Medium)     → DP Tabulation     ✅
-Aug 15, 2026  ─  House Robber (Medium)    → Space-Opt DP      ✅
-Aug 15, 2026  ─  Fibonacci Number (Easy)  → Iterative O(1)    ✅
-Aug 15, 2026  ─  Combination Sum (Medium) → Backtrack+Prune   ✅
-Aug 16, 2026  ─  Convert Time (Easy)      → Greedy Inline     ✅
+Aug 19, 2026  ─  Length of Last Word (Easy) → Reverse Iter     ✅  ← NEW
+Aug 19, 2026  ─  Contains Duplicate (Easy)  → HashSet O(n)     ✅  ← NEW
+Aug 18, 2026  ─  Merge k Sorted Lists (Hard)→ Min-Heap         ✅
+Aug 18, 2026  ─  Count Majority (Medium)    → Fenwick Tree      ✅
+Aug 17, 2026  ─  Sort an Array (Medium)     → Merge Sort        ✅
+Aug 17, 2026  ─  Word Break (Medium)        → DP Tabulation     ✅
+Aug 16, 2026  ─  Unique Paths (Medium)      → DP Tabulation     ✅
+Aug 15, 2026  ─  Perfect Squares (Medium)   → DP Tabulation     ✅
+Aug 15, 2026  ─  Ugly Number II (Medium)    → DP + 3 Pointers  ✅
+Aug 15, 2026  ─  Two Sum (Easy)             → One-Pass HashMap  ✅
+Aug 15, 2026  ─  Coin Change (Medium)       → DP Tabulation     ✅
+Aug 15, 2026  ─  House Robber (Medium)      → Space-Opt DP      ✅
 ```
 
 ---
@@ -179,11 +180,9 @@ Abdul-Leetcode-Solutions/
 │
 ├── 🟢 Easy/
 │   ├── 1-Two-Sum/
-│   │   ├── Solution.java
-│   │   └── README.md
+│   ├── 58-Length-of-Last-Word/    ← NEW
+│   ├── 217-Contains-Duplicate/    ← NEW
 │   └── 2224-Convert-Time/
-│       ├── Solution.java
-│       └── README.md
 │
 ├── 🟡 Medium/
 │   ├── 139-Word-Break/
@@ -216,6 +215,6 @@ Abdul-Leetcode-Solutions/
 
 **⭐ Star this repo if it helps you! | Made with ❤️ by [Abdul Siddiqi](https://github.com/A263-abdul)**
 
-*Last Updated: Aug 18, 2026 · 20 problems solved · Maintained daily*
+*Last Updated: Aug 19, 2026 · 22 problems solved · Maintained daily*
 
 </div>
