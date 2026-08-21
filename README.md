@@ -10,11 +10,11 @@
 
 <br/>
 
-[![Problems Solved](https://img.shields.io/badge/Total%20Solved-23-brightgreen?style=for-the-badge&logo=checkmarx)](.)
-[![Easy](https://img.shields.io/badge/Easy-9-00b8a3?style=for-the-badge)](./Easy)
+[![Problems Solved](https://img.shields.io/badge/Total%20Solved-24-brightgreen?style=for-the-badge&logo=checkmarx)](.)
+[![Easy](https://img.shields.io/badge/Easy-10-00b8a3?style=for-the-badge)](./Easy)
 [![Medium](https://img.shields.io/badge/Medium-11-ffc01e?style=for-the-badge)](./Medium)
 [![Hard](https://img.shields.io/badge/Hard-3-ef4743?style=for-the-badge)](./Hard)
-[![Streak](https://img.shields.io/badge/Streak-11%20days%20🔥-orange?style=for-the-badge)](.)
+[![Streak](https://img.shields.io/badge/Streak-12%20days%20🔥-orange?style=for-the-badge)](.)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 | 📂 Category | 🔗 Link | 📊 Progress |
 |:-----------:|:-------:|:-----------:|
-| 🟢 Easy | [Browse Easy](./Easy) | 9 solved |
+| 🟢 Easy | [Browse Easy](./Easy) | 10 solved |
 | 🟡 Medium | [Browse Medium](./Medium) | 11 solved |
 | 🔴 Hard | [Browse Hard](./Hard) | 3 solved |
 | 📝 Notes | [Study Notes](./Notes) | 3 guides |
@@ -39,15 +39,15 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🏆 Total Solved: 23 / 4019                             │
+│  🏆 Total Solved: 24 / 4019                             │
 │                                                         │
-│  🟢 Easy    █████████░░░░░  9 / 958    (0.9%)          │
+│  🟢 Easy    ██████████░░░░  10 / 958   (1.0%)          │
 │  🟡 Medium  ███████████░░░  11 / 2099  (0.5%)          │
 │  🔴 Hard    ███░░░░░░░░░░░  3 / 962    (0.3%)          │
 │                                                         │
-│  🔥 Current Streak : 11 days                           │
+│  🔥 Current Streak : 12 days                           │
 │  🎯 Rank           : ~5,000,000                        │
-│  📅 Last Solved    : Aug 20, 2026                      │
+│  📅 Last Solved    : Aug 21, 2026                      │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -59,6 +59,7 @@
 |---|---------|-----------|-----------|-----------------|------|
 | 1 | [Two Sum](./Easy/1-Two-Sum/) | Brute Force O(n²) | Two-Pass HashMap | **One-Pass HashMap O(n)** | Aug 15 |
 | 9 | [Palindrome Number](./Easy/9-Palindrome-Number/) | String Conversion | — | **Math Reverse O(log n)** | — |
+| 27 | [Remove Element](./Easy/27-Remove-Element/) | Two Pointers (Reader/Writer) | Two Pointers (Opposite) | **Two Pointers O(n)** | Aug 21 |
 | 58 | [Length of Last Word](./Easy/58-Length-of-Last-Word/) | Split+Trim | Two Pointers | **Reverse Iteration O(1)** | Aug 19 |
 | 217 | [Contains Duplicate](./Easy/217-Contains-Duplicate/) | Brute Force O(n²) | Sort O(n log n) | **HashSet One-Pass O(n)** | Aug 19 |
 | 2224 | [Convert Time](./Easy/2224-Convert-Time/) | Simulation | Greedy Array | **Greedy Inline O(1)** | Aug 15 |
@@ -126,7 +127,8 @@
 ## 📅 Recent Activity
 
 ```
-Aug 20, 2026  ─  Maximum Subarray (Medium)   → Divide & Conquer ✅  ← NEW
+Aug 21, 2026  ─  Remove Element (Easy)       → Two Pointers     ✅  ← NEW
+Aug 20, 2026  ─  Maximum Subarray (Medium)   → Divide & Conquer ✅
 Aug 19, 2026  ─  Length of Last Word (Easy)  → Reverse Iter     ✅
 Aug 19, 2026  ─  Contains Duplicate (Easy)   → HashSet O(n)     ✅
 Aug 18, 2026  ─  Merge k Sorted Lists (Hard) → Min-Heap         ✅
@@ -137,7 +139,6 @@ Aug 16, 2026  ─  Unique Paths (Medium)       → DP Tabulation     ✅
 Aug 15, 2026  ─  Perfect Squares (Medium)    → DP Tabulation     ✅
 Aug 15, 2026  ─  Ugly Number II (Medium)     → DP + 3 Pointers  ✅
 Aug 15, 2026  ─  Two Sum (Easy)              → One-Pass HashMap  ✅
-Aug 15, 2026  ─  Coin Change (Medium)        → DP Tabulation     ✅
 ```
 
 ---
@@ -181,8 +182,9 @@ Abdul-Leetcode-Solutions/
 │
 ├── 🟢 Easy/
 │   ├── 1-Two-Sum/
-│   ├── 58-Length-of-Last-Word/    ← NEW
-│   ├── 217-Contains-Duplicate/    ← NEW
+│   ├── 27-Remove-Element/         ← NEW
+│   ├── 58-Length-of-Last-Word/
+│   ├── 217-Contains-Duplicate/
 │   └── 2224-Convert-Time/
 │
 ├── 🟡 Medium/
@@ -194,7 +196,7 @@ Abdul-Leetcode-Solutions/
 │   ├── 3737-Count-Subarrays-With-Majority-Element-I/
 │   ├── 39-Combination-Sum/
 │   ├── 509-Fibonacci-Number/
-│   ├── 53-Maximum-Subarray/       ← NEW
+│   ├── 53-Maximum-Subarray/
 │   ├── 62-Unique-Paths/
 │   └── 912-Sort-an-Array/
 │
@@ -217,6 +219,6 @@ Abdul-Leetcode-Solutions/
 
 **⭐ Star this repo if it helps you! | Made with ❤️ by [Abdul Siddiqi](https://github.com/A263-abdul)**
 
-*Last Updated: Aug 20, 2026 · 23 problems solved · Maintained daily*
+*Last Updated: Aug 21, 2026 · 24 problems solved · Maintained daily*
 
 </div>
