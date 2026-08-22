@@ -10,11 +10,11 @@
 
 <br/>
 
-[![Problems Solved](https://img.shields.io/badge/Total%20Solved-24-brightgreen?style=for-the-badge&logo=checkmarx)](.)
-[![Easy](https://img.shields.io/badge/Easy-10-00b8a3?style=for-the-badge)](./Easy)
+[![Problems Solved](https://img.shields.io/badge/Total%20Solved-27-brightgreen?style=for-the-badge&logo=checkmarx)](.)
+[![Easy](https://img.shields.io/badge/Easy-13-00b8a3?style=for-the-badge)](./Easy)
 [![Medium](https://img.shields.io/badge/Medium-11-ffc01e?style=for-the-badge)](./Medium)
 [![Hard](https://img.shields.io/badge/Hard-3-ef4743?style=for-the-badge)](./Hard)
-[![Streak](https://img.shields.io/badge/Streak-12%20days%20🔥-orange?style=for-the-badge)](.)
+[![Streak](https://img.shields.io/badge/Streak-13%20days%20🔥-orange?style=for-the-badge)](.)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 | 📂 Category | 🔗 Link | 📊 Progress |
 |:-----------:|:-------:|:-----------:|
-| 🟢 Easy | [Browse Easy](./Easy) | 10 solved |
+| 🟢 Easy | [Browse Easy](./Easy) | 13 solved |
 | 🟡 Medium | [Browse Medium](./Medium) | 11 solved |
 | 🔴 Hard | [Browse Hard](./Hard) | 3 solved |
 | 📝 Notes | [Study Notes](./Notes) | 3 guides |
@@ -39,15 +39,15 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🏆 Total Solved: 24 / 4019                             │
+│  🏆 Total Solved: 27 / 4019                             │
 │                                                         │
-│  🟢 Easy    ██████████░░░░  10 / 958   (1.0%)          │
+│  🟢 Easy    █████████████░  13 / 958   (1.4%)          │
 │  🟡 Medium  ███████████░░░  11 / 2099  (0.5%)          │
 │  🔴 Hard    ███░░░░░░░░░░░  3 / 962    (0.3%)          │
 │                                                         │
-│  🔥 Current Streak : 12 days                           │
+│  🔥 Current Streak : 13 days                           │
 │  🎯 Rank           : ~5,000,000                        │
-│  📅 Last Solved    : Aug 21, 2026                      │
+│  📅 Last Solved    : Aug 22, 2026                      │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -62,7 +62,10 @@
 | 27 | [Remove Element](./Easy/27-Remove-Element/) | Two Pointers (Reader/Writer) | Two Pointers (Opposite) | **Two Pointers O(n)** | Aug 21 |
 | 58 | [Length of Last Word](./Easy/58-Length-of-Last-Word/) | Split+Trim | Two Pointers | **Reverse Iteration O(1)** | Aug 19 |
 | 217 | [Contains Duplicate](./Easy/217-Contains-Duplicate/) | Brute Force O(n²) | Sort O(n log n) | **HashSet One-Pass O(n)** | Aug 19 |
+| 231 | [Power of Two](./Easy/231-Power-of-Two/) | Iterative Division O(log n) | Bit Count O(1) | **Bitwise (n & (n-1)) O(1)** | Aug 22 |
+| 326 | [Power of Three](./Easy/326-Power-of-Three/) | Iterative Division O(log3 n) | Recursion | **Max Int Divisibility O(1)** | Aug 22 |
 | 2224 | [Convert Time](./Easy/2224-Convert-Time/) | Simulation | Greedy Array | **Greedy Inline O(1)** | Aug 15 |
+| 3622 | [Check Divisibility](./Easy/3622-Check-Divisibility-by-Digit-Sum-and-Product/) | — | — | **Digit Extraction O(log10 n)** | Aug 22 |
 
 ---
 
@@ -127,7 +130,10 @@
 ## 📅 Recent Activity
 
 ```
-Aug 21, 2026  ─  Remove Element (Easy)       → Two Pointers     ✅  ← NEW
+Aug 22, 2026  ─  Check Divisibility (Easy)   → Digit Extraction ✅  ← NEW
+Aug 22, 2026  ─  Power of Three (Easy)       → Max Int Divisibility ✅ ← NEW
+Aug 22, 2026  ─  Power of Two (Easy)         → Bit Manipulation ✅  ← NEW
+Aug 21, 2026  ─  Remove Element (Easy)       → Two Pointers     ✅
 Aug 20, 2026  ─  Maximum Subarray (Medium)   → Divide & Conquer ✅
 Aug 19, 2026  ─  Length of Last Word (Easy)  → Reverse Iter     ✅
 Aug 19, 2026  ─  Contains Duplicate (Easy)   → HashSet O(n)     ✅
@@ -136,9 +142,6 @@ Aug 18, 2026  ─  Count Majority (Medium)     → Fenwick Tree      ✅
 Aug 17, 2026  ─  Sort an Array (Medium)      → Merge Sort        ✅
 Aug 17, 2026  ─  Word Break (Medium)         → DP Tabulation     ✅
 Aug 16, 2026  ─  Unique Paths (Medium)       → DP Tabulation     ✅
-Aug 15, 2026  ─  Perfect Squares (Medium)    → DP Tabulation     ✅
-Aug 15, 2026  ─  Ugly Number II (Medium)     → DP + 3 Pointers  ✅
-Aug 15, 2026  ─  Two Sum (Easy)              → One-Pass HashMap  ✅
 ```
 
 ---
@@ -182,10 +185,13 @@ Abdul-Leetcode-Solutions/
 │
 ├── 🟢 Easy/
 │   ├── 1-Two-Sum/
-│   ├── 27-Remove-Element/         ← NEW
+│   ├── 27-Remove-Element/
 │   ├── 58-Length-of-Last-Word/
 │   ├── 217-Contains-Duplicate/
-│   └── 2224-Convert-Time/
+│   ├── 231-Power-of-Two/          ← NEW
+│   ├── 326-Power-of-Three/        ← NEW
+│   ├── 2224-Convert-Time/
+│   └── 3622-Check-Divisibility-by-Digit-Sum-and-Product/  ← NEW
 │
 ├── 🟡 Medium/
 │   ├── 139-Word-Break/
@@ -219,6 +225,6 @@ Abdul-Leetcode-Solutions/
 
 **⭐ Star this repo if it helps you! | Made with ❤️ by [Abdul Siddiqi](https://github.com/A263-abdul)**
 
-*Last Updated: Aug 21, 2026 · 24 problems solved · Maintained daily*
+*Last Updated: Aug 22, 2026 · 27 problems solved · Maintained daily*
 
 </div>
